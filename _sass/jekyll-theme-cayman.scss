@@ -354,7 +354,6 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  margin-left: 2rem;
   background-color: powderblue;
   border-top: solid 1px $hr-border-color;
 
@@ -377,5 +376,6 @@ a {
 }
 
 .site-footer-credits {
+  text-align: right;
   color: $blockquote-text-color;
 }
