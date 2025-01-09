@@ -21,6 +21,20 @@
       {{ content }}
     </main>
     <footer class="site-footer">
+      {% if page.lang == "el" %}
+        {% assign greek = true %}
+      {% else %}
+        {% assign greek = false %}
+      {% endif %}
+      <p>
+        {% if greek %}<strong>Κεπελιάν Αλέξανδρος</strong>{% else %}<strong>Kepelian Alexander</strong>{% endif %}<br>
+        {% if greek %}Πιστοποιημένος χορδιστής πιάνων{% else %}Certified piano tuner{% endif %}<br>
+      </p>
+      <p>
+        {% if greek %}Επικοινωνήστε μαζί μου σήμερα και κλείστε το ραντεβού σας{% else %}Contact me today and arrange an appointment{% endif %}!<br>
+        {% if greek %}Τηλ. {% else %}Phone{% endif %}: +30 6906272426<br>
+        Email: <a href="mailto:alexanderkepelian@gmail.com">alexanderkepelian@gmail.com</a>
+      </p>
       <span class="site-footer-credits">Powered by Jekyll.</span>
     </footer>
   </body>
