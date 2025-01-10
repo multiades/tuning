@@ -208,12 +208,8 @@ a {
     font-weight: normal;
   }
 
-  h1 span:nth-of-type(odd) {
-    color: white;
-  }
-
   h1 span:nth-of-type(even) {
-    color: black;
+    color: black !important;
   }
   
   h2,
