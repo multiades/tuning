@@ -208,11 +208,11 @@ a {
     font-weight: normal;
   }
 
-  h1 span:nth-of-type(even) {
+  h1 span:nth-of-type(odd) {
     color: white;
   }
 
-  h1 span:nth-of-type(odd) {
+  h1 span:nth-of-type(even) {
     color: black;
   }
   
@@ -228,7 +228,6 @@ a {
   }
 
   p {
-    font-size: 2rem;
     margin-bottom: 1em;
   }
 
